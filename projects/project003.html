@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Header Start -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gustavo Santos - Software Engineer</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="author" content="Gustavo Santos">
+
+    <!--Favicon Start -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../site.webmanifest">
+    <link rel="mask-icon" href="../assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="theme-color" content="#ffffff">
+    <!--Favicon End -->
+
+    <!-- Fonts Start -->
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap" rel="stylesheet" media="none" onload="this.media='all';">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap" rel="stylesheet" media="none" onload="this.media='all';">
+    <!-- Fonts End -->
+
+    <!-- Styles Start -->
+    <link rel="stylesheet" href="../css/navbar.css" media="none" onload="this.media='all';">
+    <link rel="stylesheet" href="../css/project.css" media="none" onload="this.media='all';">
+    <!-- Styles End -->
+
+    <!-- Preloader Start -->
+    <link rel="stylesheet" href="../css/preloader.css">
+    <script src="../js/preloader.js"></script>
+    <!-- Preloader End -->
+</head>
+<!--Header End -->
+
+<!--Body Start -->
+<body>
+
+<!-- Preloader Start -->
+<div class="preloader">
+    <div class="loader"></div>
+</div>
+<!-- Preloader End -->
+
+<!-- Navigation Bar Start -->
+<div class="navbar noselect">
+    <a class="navbar-logo" href="../work.html" title="Gustavo Santos">Gustavo<br>&nbsp;Santos</a>
+    <a class="navbar-text" href="../work.html" title="Work"><h1>WORK</h1></a>
+    <a class="navbar-text" href="../about.html" title="About">ABOUT</a>
+    <a class="navbar-text" href="../contact.html" title="Contact">CONTACT</a>
+    <div class="navbar-separator"></div>
+</div>
+<!-- Navigation Bar End-->
+
+<!-- Profile Start -->
+<div class="profile">
+    <div class="profile-gradient">
+        <div class="project-picture" style="background: url('../assets/projects/003/thumbnail.jpg') no-repeat center center; background-size: 100% 100%;"></div>
+        <div class="profile-texts">
+            <div class="name">Procedural Voxel Generation</div>
+            <div class="other-infos">Another minecraft "copy"...</div>
+        </div>
+    </div>
+</div>
+<!-- Profile End -->
+
+<!-- Skills Start -->
+<div class="contact">
+    <h1 class="subtitle noselect">Skills</h1>
+    <div class="horizontal-list">
+        <a class="skill noselect">Java</a>
+        <a class="skill noselect">OpenGL</a>
+        <a class="skill noselect">Programmable Pipeline</a>
+        <a class="skill noselect">Procedural Mesh Generation</a>
+        <a class="skill noselect">Perlin Noise</a>
+        <a class="skill noselect">GLSL</a>
+        <a class="skill noselect">Phong Shading</a>
+    </div>
+</div>
+<!-- Skills End -->
+
+<!-- Softwares Start -->
+<div class="softwares">
+    <h1 class="subtitle noselect">Software Used</h1>
+    <div class="custom-list">
+        <a class="li-software li-idea" style="width: 75px;">IntelliJ IDEA</a>
+    </div>
+</div>
+<!-- Softwares End -->
+
+<!-- About Start -->
+<div class="contact">
+    <h1 class="subtitle">About</h1>
+    <div class="description">
+        <p>I developed this project in 2017 to study low level graphical programming, and to learn how to generate 3d models procedurally. in this case the voxels.</p><br>
+    </div>
+</div>
+<!-- About End -->
+
+<!-- About Start -->
+<div class="contact">
+    <h1 class="subtitle">Performance</h1>
+    <div class="description">
+        <p>7+ million vertices at 200fps on a GTX 1050Ti</p><br>
+    </div>
+</div>
+<!-- About End -->
+
+<!-- About Start -->
+<div class="contact">
+    <h1 class="subtitle">Smart Ambient Occlusion</h1>
+    <div class="description">
+        <div>What you see in the folds is not ambient occlusion, but darker vertex colors multiplying the texels.</div>
+        <div>What I did to calculate procedurally which vertices would be darker was:</div><br>
+        <div style="margin-left: 32px">
+            <ul>
+                <li>Before starting to create the meshes, I have my voxel matrix already completely filled, so I know exactly where a voxel exists or not</li>
+                <li>For each voxel I drew the faces separately</li>
+                <li>My matrix starts at [0,0,0] -x, -y, -z</li>
+                <li>When I draw the top face of voxel [1, 1, 1], I look at the relative position +y-z [1, 2, 0], if I have a voxel in that position, it means that my two back vertices (-z) of the face I'm drawing will be dark</li>
+                <li>And I use the same logic for the four sides of the top face</li>
+                <li>And for each face I do these four checks</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+
+<!-- YouTube Start -->
+<div class="box ratio16_9">
+    <iframe class="video" src="https://www.youtube.com/embed/gdsF9u37zpM?modestbranding=1&showinfo=0&rel=0&iv_load_policy=3&color=white" frameborder="0"></iframe>
+</div>
+<!-- YouTube End -->
+
+<picture>
+    <source srcset="../assets/projects/003/img01.webp" type="image/webp">
+    <source srcset="../assets/projects/003/img01.jpg" type="image/jpeg">
+    <img src="../assets/projects/003/img01.jpg" class="image" alt="Img 01">
+</picture>
+
+<picture>
+    <source srcset="../assets/projects/003/img02.webp" type="image/webp">
+    <source srcset="../assets/projects/003/img02.jpg" type="image/jpeg">
+    <img src="../assets/projects/003/img02.jpg" class="image" alt="Img 02">
+</picture>
+
+<picture>
+    <source srcset="../assets/projects/003/img03.webp" type="image/webp">
+    <source srcset="../assets/projects/003/img03.jpg" type="image/jpeg">
+    <img src="../assets/projects/003/img03.jpg" class="image" alt="Img 03">
+</picture>
+
+<picture>
+    <source srcset="../assets/projects/003/img04.webp" type="image/webp">
+    <source srcset="../assets/projects/003/img04.jpg" type="image/jpeg">
+    <img src="../assets/projects/003/img04.jpg" class="image" alt="Img 04">
+</picture>
+
+<picture>
+    <source srcset="../assets/projects/003/img05.webp" type="image/webp">
+    <source srcset="../assets/projects/003/img05.jpg" type="image/jpeg">
+    <img src="../assets/projects/003/img05.jpg" class="image" alt="Img 05">
+</picture>
+
+
+<div style="padding-bottom: 16px"></div>
+
+</body>
+<!--Body End -->
+
+</html>

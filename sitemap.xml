@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+    <url>
+        <loc>https://gsantos.dev/</loc>
+        <lastmod>2019-08-15T00:04:09+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://gsantos.dev/work.html</loc>
+        <lastmod>2019-08-15T00:04:09+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://gsantos.dev/about.html</loc>
+        <lastmod>2019-08-15T00:04:06+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://gsantos.dev/contact.html</loc>
+        <lastmod>2019-08-15T00:04:08+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://gsantos.dev/projects/project001.html</loc>
+        <lastmod>2019-08-15T00:04:09+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://gsantos.dev/projects/project002.html</loc>
+        <lastmod>2019-08-15T00:04:09+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://gsantos.dev/projects/project003.html</loc>
+        <lastmod>2019-08-15T00:04:09+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://gsantos.dev/projects/project004.html</loc>
+        <lastmod>2019-08-15T00:04:09+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://gsantos.dev/projects/project005.html</loc>
+        <lastmod>2019-08-15T00:04:09+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://gsantos.dev/projects/project006.html</loc>
+        <lastmod>2020-01-11T00:04:09+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://gsantos.dev/projects/project007.html</loc>
+        <lastmod>2020-01-11T00:04:09+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://gsantos.dev/projects/project008.html</loc>
+        <lastmod>2020-01-11T00:04:09+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+
+
+</urlset>

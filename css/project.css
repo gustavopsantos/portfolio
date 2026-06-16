@@ -1,0 +1,275 @@
+p {
+    margin: 0;
+}
+
+.vertical-menu a {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    line-height: 32px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.profile {
+    position: relative;
+    background-image: url("../assets/images/header-background.jpg");
+    margin-top: 51px;
+    height: 300px;
+}
+
+.profile-gradient {
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    /*border: greenyellow solid 1px;*/
+}
+
+.project-picture {
+    position: relative;
+    height: 156px;
+    width: 156px;
+    margin: 24px auto 36px;
+    clip-path: circle(78px at center);
+}
+
+.profile-texts {
+    position: absolute;
+    width: 100%;
+    /*border: #03A0E7 solid 1px;*/
+    bottom: 0;
+    margin-bottom: 16px;
+}
+
+.name {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+    height: 100%;
+    color: #f1f1f1;
+    text-align: center;
+    /*border: crimson solid 1px;*/
+}
+
+.other-infos {
+    font-family: "Open Sans", sans-serif;
+    margin-top: 6px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #bbbbbb;
+    text-align: center;
+}
+
+.contact {
+    margin: 16px auto;
+    width: 50%;
+    min-width: 332px;
+    max-width: 992px;
+    /*border: solid greenyellow 1px;*/
+}
+
+.subtitle {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 56px;
+    color: #f1f1f1;
+    text-align: center;
+}
+
+.description {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    font-size: 14px;
+    color: #bbbbbb;
+    text-align: left;
+    line-height: 20px;
+}
+
+.skill {
+    color: #03A0E7;
+    font-family: "Consolas", monospace;
+    border: solid 1px;
+    border-radius: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 14px;
+    margin-right: 6px;
+    line-height: 28px;
+    white-space: nowrap;
+}
+
+.hyperlink {
+    color: #03A0E7;
+    font-family: "Consolas", monospace;
+    font-size: 14px;
+    margin-right: 6px;
+    line-height: 28px;
+    white-space: nowrap;
+}
+
+.horizontal-list {
+    list-style: none;
+    text-align: center;
+    line-height: 24px;
+}
+
+.horizontal-list a {
+    display: inline;
+}
+
+.softwares {
+    margin: 16px auto;
+    width: 50%;
+    min-width: 332px;
+    max-width: 992px;
+}
+
+.custom-list {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+.custom-list a {
+    position: relative;
+    display: inline-block;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    text-align: left;
+    font-size: 14px;
+    line-height: 36px;
+    padding-left: 42px;
+    margin: 0 36px 16px;
+    width: 36px;
+    color: #bbbbbb;
+}
+
+.li-software:before {
+    content: '';
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.li-unity:before {
+    background-image: url("../assets/icons/ic_unity.png");
+}
+
+.li-rider:before {
+    background-image: url("../assets/icons/ic_rider.png");
+}
+
+.li-visualstudio:before {
+    background-image: url("../assets/icons/ic_visualstudio.png");
+}
+
+.li-idea:before {
+    background-image: url("../assets/icons/ic_idea.png");
+}
+
+.li-steam:before {
+    background-image: url("../assets/icons/ic_steam.png");
+}
+
+.li-photoshop:before {
+    background-image: url("../assets/icons/ic_photoshop.png");
+}
+
+.li-jira:before {
+    background-image: url("../assets/icons/ic_jira.png");
+}
+
+.image {
+    display: block;
+    margin: 0 auto;
+    padding: 4px 0;
+    width: 50%;
+    min-width: 332px;
+    max-width: 992px;
+}
+
+.box {
+    margin: 0 auto;
+    position: relative;
+    width: 50%;
+    min-width: 332px;
+    max-width: 992px;
+    display: flex;
+}
+
+.box:before {
+    content: "";
+    display: block;
+    padding-top: 100%; /* initial ratio of 1:1*/
+}
+
+.ratio16_9:before {
+    padding-top: 56.25%;
+}
+
+.video {
+    flex-grow: 1;
+}
+
+.code-region {
+    position: relative;
+    margin: 8px auto;
+    padding: 16px;
+    background: border-box #272822;
+    border-radius: 8px;
+    width: 50%;
+    min-width: 300px;
+    max-width: 960px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.code {
+    font-family: "Consolas", monospace;
+    font-size: 16px;
+    line-height: 20px;
+    white-space: nowrap;
+}
+
+.cyan {
+    color: #4ec9b0;
+}
+
+.gray {
+    color: #dcdcdc;
+}
+
+.blue {
+    color: #569cd6;
+}
+
+.comment {
+    user-select: none;
+    color: #75715e;
+}
+
+.beige {
+    color: #d69d85;
+}
+
+.green {
+    color: #57a64a;
+}
+
+.light-blue {
+    color: #00ffff;
+}
