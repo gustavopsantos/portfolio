@@ -16,6 +16,10 @@ ul {
     padding: 0;
 }
 
+.description li {
+    margin-bottom: 1em;
+}
+
 .profile {
     position: relative;
     background-image: url("../assets/images/header-background.jpg");
