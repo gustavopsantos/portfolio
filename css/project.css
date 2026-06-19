@@ -200,6 +200,7 @@ ul {
 .image {
     display: block;
     margin: 0 auto;
+    margin-bottom: 32px;    
     padding: 4px 0;
     width: 50%;
     min-width: 332px;
